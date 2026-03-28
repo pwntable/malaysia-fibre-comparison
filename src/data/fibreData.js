@@ -58,65 +58,61 @@ export const fibreData = [
   },
   {
     provider: "CelcomDigi",
-    link: "https://fibre.celcomdigi.com/",
-    contract: "Not clearly shown in current dataset",
+    link: "https://celcom-fibre.my/",
+    contract: "24 months",
     plans: [
       {
         speed: "100Mbps",
         price: 99,
         originalPrice: null,
-        suitableFor: "Individuals or couples with light streaming, browsing, and daily essentials",
+        suitableFor: "For 4-6 users with support for up to 10 devices",
         benefits: [
-          "Free WiFi 6 router + installation",
-          "Unlimited Internet"
+          "Free WiFi 6 Router & Installation",
+          "Unlimited hyperspeed internet"
         ]
       },
       {
         speed: "300Mbps",
         price: 129,
         originalPrice: 139,
-        suitableFor: "Everyday streaming, gaming, and work-from-home across 3 to 4 users",
+        suitableFor: "Ideal for medium and large families with multiple devices",
         benefits: [
-          "Free WiFi 6 router + installation",
-          "Unlimited high-speed Internet",
-          "RM240 rebate with CelcomDigi Postpaid"
+          "RM10 monthly Rebate for 24 months",
+          "Free WiFi 6 Router & Installation",
+          "Unlimited hyperspeed internet"
         ]
       },
       {
         speed: "500Mbps",
         price: 149,
         originalPrice: 159,
-        suitableFor: "Larger homes with several users, multiple gaming, and 4K streaming",
+        suitableFor: "Powerful connectivity for large families and heavy users",
         benefits: [
-          "Free WiFi 6 router + installation",
-          "Free mesh node",
-          "Unlimited high-speed Internet",
-          "RM240 rebate with CelcomDigi Postpaid"
+          "RM10 monthly Rebate for 24 months",
+          "Free WiFi 6 Router & Installation",
+          "Unlimited hyperspeed internet"
         ]
       },
       {
         speed: "1Gbps",
         price: 239,
         originalPrice: 249,
-        suitableFor: "Heavy usage on multiple family gadgets, zero lag 4K streaming and gaming",
+        suitableFor: "Experience the fastest residential internet available",
         benefits: [
-          "Free Premium WiFi 6 router + installation",
-          "Free mesh node",
-          "Unlimited ultra-fast Internet",
-          "RM240 rebate with CelcomDigi Postpaid"
+          "RM10 monthly Rebate for 24 months",
+          "Free Premium WiFi 6 Router, Mesh Node & Standard Installation",
+          "Unlimited hyperspeed internet"
         ]
       },
       {
         speed: "2Gbps",
         price: 309,
         originalPrice: 319,
-        suitableFor: "Ultra-connected large homes needing full speed with maximum stability",
+        suitableFor: "The most complete home internet for large households",
         benefits: [
-          "Free Premium WiFi 6 router + installation",
-          "Free mesh node",
-          "Unlimited ultra-fast Internet",
-          "RM240 rebate with CelcomDigi Postpaid",
-          "Fastest available connectivity"
+          "RM10 monthly Rebate for 24 months",
+          "Free Premium WiFi 6 Router, Mesh Node & Standard Installation",
+          "Unlimited hyperspeed internet"
         ]
       }
     ]

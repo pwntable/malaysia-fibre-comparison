@@ -50,22 +50,7 @@ export default function App() {
         });
       });
 
-      // Inject missing for Maxis
-      if (providerData.provider === "Maxis") {
-        const existingSpeeds = providerData.plans.map(p => p.speed);
-        allSpeeds.forEach(speed => {
-          if (!existingSpeeds.includes(speed)) {
-             rows.push({
-               provider: "Maxis",
-               link: providerData.link,
-               contract: providerData.contract,
-               speed: speed,
-               price: 9999, // Dummy high price for sorting backend
-               isMissing: true
-             });
-          }
-        });
-      }
+
     });
 
     // Apply Filters
