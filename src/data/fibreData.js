@@ -171,22 +171,49 @@ export const fibreData = [
   {
     provider: "Maxis",
     link: "https://www.maxis.com.my/en/broadband/maxis-fibre/",
-    contract: "24 months (shown for 500Mbps plan)",
+    contract: "24 months",
     plans: [
+      {
+        speed: "100Mbps",
+        price: 89,
+        originalPrice: 99,
+        suitableFor: "Recommended for 2-3 devices (full HD streaming & browsing)",
+        benefits: [
+          "WiFi 6 certified router included",
+          "REBATE: RM10x24 MONTHS",
+          "Unlimited mobile data with postpaid",
+          "Max WiFi by Maxperts at RM19/mth",
+          "live sports & entertainment on sooka"
+        ]
+      },
+      {
+        speed: "300Mbps",
+        price: 129,
+        originalPrice: 139,
+        suitableFor: "Recommended for 4-5 devices (buffer-free 4K streaming and gaming)",
+        benefits: [
+          "WiFi 6 certified router included",
+          "REBATE: RM10x24 MONTHS",
+          "Unlimited mobile data with postpaid",
+          "Max WiFi by Maxperts at RM19/mth",
+          "live sports & entertainment on sooka"
+        ]
+      },
       {
         speed: "500Mbps",
         price: 149,
         originalPrice: 159,
-        suitableFor: "6 to 8 devices",
+        suitableFor: "Recommended for 6-8 devices (heavy usage on multiple devices)",
         benefits: [
-          "High-speed internet for work, study and gaming",
-          "WiFi 6 certified router",
-          "Max WiFi by Maxperts",
-          "sooka content benefit",
-          "SAVE RM240 + RM100 TNG"
+          "WiFi 6 certified router included",
+          "2 units of WiFi 6 EasyMesh free",
+          "REBATE: RM10x24 MONTHS",
+          "Unlimited mobile data with postpaid",
+          "Max WiFi by Maxperts at RM19/mth",
+          "live sports & entertainment on sooka",
+          "Home Devices from RM1/mth"
         ]
       }
-    ],
-    notes: "Only 500Mbps package is clearly available in the provided dataset. Other Maxis packages must be shown as not provided in current dataset."
+    ]
   }
 ];

@@ -58,8 +58,7 @@ export default function BestPicks() {
               <h3 className="text-xs uppercase font-black tracking-widest text-purple-600 mb-1">Best Premium Feel</h3>
               <h4 className="text-2xl font-bold text-slate-900 mb-2">Maxis</h4>
               <p className="text-slate-600 text-sm leading-relaxed">
-                Their 500Mbps tier is bundled with a certified Wi-Fi 6 router, dedicated 'Maxperts' support, and Sooka content. 
-                <i> (Note: Other speeds are not clearly provided in the current dataset.)</i>
+                Maxis fibre bundles are stacked with certified Wi-Fi 6 routers, dedicated 'Maxperts' Wi-Fi tuning, free devices, and live sports content on Sooka.
               </p>
             </div>
           </div>

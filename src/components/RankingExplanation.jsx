@@ -41,7 +41,7 @@ export default function RankingExplanation() {
               <h3 className="text-xl font-bold text-slate-800">Maxis</h3>
             </div>
             <p className="text-slate-600 text-sm leading-relaxed relative z-10">
-              <strong>Premium Feel.</strong> Excellent 500Mbps tier with WiFi 6 and Sooka content. Unfortunately, the current dataset lacks details for other speeds, resulting in incomplete coverage.
+              <strong>Premium Feel.</strong> Excellent tiers bundled with Wi-Fi 6, Sooka content, and even free devices from RM1/mth. However, they lack higher 1Gbps or 2Gbps speeds compared to the top two.
             </p>
           </div>
 
